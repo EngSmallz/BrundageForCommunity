@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Timeline | Justin Brundage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        forest: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                            950: '#052e16',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+    <!-- Shared Header -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-forest-900/40">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-emerald-500 inline-block"></span>
+                Justin Brundage
+            </a>
+            <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-300">
+                <a href="index.html" class="hover:text-emerald-400 transition-colors">Home</a>
+                <a href="about.html" class="text-emerald-400 font-semibold">About</a>
+                <a href="policy.html" class="hover:text-emerald-400 transition-colors">Policy</a>
+                <a href="community.html" class="hover:text-emerald-400 transition-colors">Community</a>
+                <a href="contact.html" class="hover:text-emerald-400 transition-colors">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header Title -->
+    <section class="py-16 bg-gradient-to-b from-forest-950/60 to-slate-950 border-b border-forest-900/30">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl">Background & Experience</h1>
+            <p class="mt-4 text-lg text-slate-400">A timeline of service, education, and professional development.</p>
+        </div>
+    </section>
+
+    <!-- Alternating Timeline Section -->
+    <section class="py-20 relative overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            
+            <!-- Central Vertical Spine (Desktop) -->
+            <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-emerald-800/40 -translate-x-1/2"></div>
+
+            <div class="space-y-16 md:space-y-24">
+
+                <!-- Milestone 1: High School -->
+                <div class="relative flex flex-col md:flex-row items-center">
+                    <div class="w-full md:w-1/2 md:pr-12 mb-6 md:mb-0 text-left md:text-right">
+                        <span class="inline-block px-3 py-1 text-xs font-mono font-semibold rounded bg-emerald-950 text-emerald-400 border border-emerald-800/50 mb-2">June 2015</span>
+                        <h3 class="text-2xl font-bold text-white">Medical Lake High School Graduate</h3>
+                        <p class="mt-2 text-slate-400 leading-relaxed">Completed secondary education in Eastern Washington, laying the groundwork for engineering studies and community service.</p>
+                    </div>
+                    <!-- Center Node Dot -->
+                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-950 border-2 border-emerald-500 items-center justify-center z-10">
+                        <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
+                    </div>
+                    <!-- Image Card Side -->
+                    <div class="w-full md:w-1/2 md:pl-12">
+                        <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-lg p-4">
+                            <div class="aspect-video rounded-lg bg-slate-800 flex items-center justify-center text-slate-400 text-sm font-mono">
+                                [Photo: Medical Lake High School]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 2: Eagle Scout (Swapped Side) -->
+                <div class="relative flex flex-col md:flex-row-reverse items-center">
+                    <div class="w-full md:w-1/2 md:pl-12 mb-6 md:mb-0 text-left">
+                        <span class="inline-block px-3 py-1 text-xs font-mono font-semibold rounded bg-emerald-950 text-emerald-400 border border-emerald-800/50 mb-2">August 2015</span>
+                        <h3 class="text-2xl font-bold text-white">Eagle Scout Award</h3>
+                        <p class="mt-2 text-slate-400 leading-relaxed">Earned the highest rank in the Boy Scouts of America, demonstrating long-term leadership, community service planning, and outdoor self-reliance.</p>
+                    </div>
+                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-950 border-2 border-emerald-500 items-center justify-center z-10">
+                        <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pr-12">
+                        <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-lg p-4">
+                            <div class="aspect-video rounded-lg bg-slate-800 flex items-center justify-center text-slate-400 text-sm font-mono">
+                                [Photo: BSA Eagle Scout Rank]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 3: WSU -->
+                <div class="relative flex flex-col md:flex-row items-center">
+                    <div class="w-full md:w-1/2 md:pr-12 mb-6 md:mb-0 text-left md:text-right">
+                        <span class="inline-block px-3 py-1 text-xs font-mono font-semibold rounded bg-emerald-950 text-emerald-400 border border-emerald-800/50 mb-2">May 2020</span>
+                        <h3 class="text-2xl font-bold text-white">Washington State University Graduate</h3>
+                        <p class="mt-2 text-slate-400 leading-relaxed">Earned a B.S. in Materials Science & Engineering from WSU Pullman, building strong analytical skills, research experience, and technical problem-solving capabilities.</p>
+                    </div>
+                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-950 border-2 border-emerald-500 items-center justify-center z-10">
+                        <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-12">
+                        <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-lg p-4">
+                            <div class="aspect-video rounded-lg bg-slate-800 flex items-center justify-center text-slate-400 text-sm font-mono">
+                                [Photo: WSU Pullman Campus]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 4: PACCAR (Swapped Side) -->
+                <div class="relative flex flex-col md:flex-row-reverse items-center">
+                    <div class="w-full md:w-1/2 md:pl-12 mb-6 md:mb-0 text-left">
+                        <span class="inline-block px-3 py-1 text-xs font-mono font-semibold rounded bg-emerald-950 text-emerald-400 border border-emerald-800/50 mb-2">January 2021</span>
+                        <h3 class="text-2xl font-bold text-white">PACCAR Technical Center</h3>
+                        <p class="mt-2 text-slate-400 leading-relaxed">Began engineering role focused on rigorous software testing, component development, and data-driven quality control for heavy-duty vehicle systems.</p>
+                    </div>
+                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-950 border-2 border-emerald-500 items-center justify-center z-10">
+                        <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pr-12">
+                        <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-lg p-4">
+                            <div class="aspect-video rounded-lg bg-slate-800 flex items-center justify-center text-slate-400 text-sm font-mono">
+                                [Photo: PACCAR Technical Center]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 5: Homeroom Heroes -->
+                <div class="relative flex flex-col md:flex-row items-center">
+                    <div class="w-full md:w-1/2 md:pr-12 mb-6 md:mb-0 text-left md:text-right">
+                        <span class="inline-block px-3 py-1 text-xs font-mono font-semibold rounded bg-emerald-950 text-emerald-400 border border-emerald-800/50 mb-2">October 2023</span>
+                        <h3 class="text-2xl font-bold text-white">Founded Homeroom Heroes</h3>
+                        <p class="mt-2 text-slate-400 leading-relaxed">Established a non-profit organization focused on connecting educators directly with essential classroom resources and community support platform infrastructure.</p>
+                    </div>
+                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-950 border-2 border-emerald-500 items-center justify-center z-10">
+                        <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-12">
+                        <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-lg p-4">
+                            <div class="aspect-video rounded-lg bg-slate-800 flex items-center justify-center text-slate-400 text-sm font-mono">
+                                [Photo: Homeroom Heroes Initiative]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 6: HOA Board (Swapped Side) -->
+                <div class="relative flex flex-col md:flex-row-reverse items-center">
+                    <div class="w-full md:w-1/2 md:pl-12 mb-6 md:mb-0 text-left">
+                        <span class="inline-block px-3 py-1 text-xs font-mono font-semibold rounded bg-emerald-950 text-emerald-400 border border-emerald-800/50 mb-2">June 2024</span>
+                        <h3 class="text-2xl font-bold text-white">HOA Board Member</h3>
+                        <p class="mt-2 text-slate-400 leading-relaxed">Stepped into neighborhood governance, managing community infrastructure, trail restoration efforts, clear boundary policies, and shared resources.</p>
+                    </div>
+                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-950 border-2 border-emerald-500 items-center justify-center z-10">
+                        <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pr-12">
+                        <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-lg p-4">
+                            <div class="aspect-video rounded-lg bg-slate-800 flex items-center justify-center text-slate-400 text-sm font-mono">
+                                [Photo: Neighborhood Infrastructure]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 7: School Board -->
+                <div class="relative flex flex-col md:flex-row items-center">
+                    <div class="w-full md:w-1/2 md:pr-12 mb-6 md:mb-0 text-left md:text-right">
+                        <span class="inline-block px-3 py-1 text-xs font-mono font-semibold rounded bg-emerald-950 text-emerald-400 border border-emerald-800/50 mb-2">August 2026</span>
+                        <h3 class="text-2xl font-bold text-white">School Board Director</h3>
+                        <p class="mt-2 text-slate-400 leading-relaxed">Appointed to advocate for transparent fiscal accountability, innovative staff retention policies, improved district communication, and student pathways.</p>
+                    </div>
+                    <div class="hidden md:flex absolute left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-slate-950 border-2 border-emerald-500 items-center justify-center z-10">
+                        <div class="w-2.5 h-2.5 rounded-full bg-emerald-400"></div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-12">
+                        <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-lg p-4">
+                            <div class="aspect-video rounded-lg bg-slate-800 flex items-center justify-center text-slate-400 text-sm font-mono">
+                                [Photo: School District Governance]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-900 text-center text-xs text-slate-400 font-mono">
+        <p>&copy; Justin Brundage. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
